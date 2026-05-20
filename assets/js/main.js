@@ -1,3 +1,11 @@
+var typed = new Typed('#element', {
+      strings: ['Digital marketer','Meta ads specialist','Social media manager'],
+      typeSpeed: 100,
+      loop: true,
+      backSpeed: 50,
+      
+    });
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
