@@ -100,6 +100,18 @@ body.dark-theme{
 .change-theme:hover{
   color: var(--first-color);
 }
+
+.change-color{
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-left: var(--mb-1);
+  
+  cursor: pointer;
+}
+
+.change-color:hover{
+  color: var(--first-color);
+}
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;

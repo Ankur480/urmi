@@ -219,3 +219,26 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== COLOR CHANGE ====================*/
+
+const colorButton = document.getElementById('color-button')
+
+const colors = [250, 230, 142, 340] 
+// Purple, Blue, Green, Pink
+
+let currentColor = 0
+
+colorButton.addEventListener('click', () => {
+    currentColor++
+
+    if(currentColor >= colors.length){
+        currentColor = 0
+    }
+
+    document.documentElement.style.setProperty(
+        '--hue-color',
+        colors[currentColor]
+    )
+})
