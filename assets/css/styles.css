@@ -105,7 +105,7 @@ body.dark-theme{
   font-size: 1.25rem;
   color: var(--title-color);
   margin-left: var(--mb-1);
-  
+  margin-right: 1.5rem;  
   cursor: pointer;
 }
 
